@@ -42,3 +42,70 @@ CREATE A COMMIT:
 git add ~/qa-project/file-to-add.txt (This is how you select individual files to add to the commit)
 git commit -m "Describe the change here" (This is how you perform the commit)
 git push (This will push the commit to the branch you are currently on)
+
+=============================================================================
+
+SQL - Structured Query Language - programming language used to manage and manipulate relational databases
+CRUD - Create, Read, Update, Delete - The four basic operations that can be performed on database records
+Primary Key - A unique identifier for a record in a database table, ensuring that each record can be uniquely identified
+JOIN - An SQL operation used to combine rolw from two or more tables based on a related column between them
+Schema - The structure of a database, including the tables, fields, relationships, and other elements
+Null - A placeholder for values that are missing or unknown
+
+=============================================================================
+
+Key SQL Commands:
+
+select
+insert into
+update
+delete
+
+Advanced SQL Commands:
+
+SQL JOINs are used to combine rows from two or more tables based on a related column between them.
+
+Inner Join:  only the rows that have matching values in both tables
+Left Join: all rows from the left and matching from the right.
+Right Join: all rows from the right and matching from the left.
+Full Join: all rows from both tables
+
+Aggregating Data:
+
+GROUP BY
+COUNT
+AVG
+SUM
+
+Filtering Data:
+
+WHERE - Filter rows based on a specified condition.  Can use for numeric values and string values
+HAVING - Filter rows in a GROUP BY statement allowing you to select only the groups that meet a specified condition
+
+==============================================================================
+
+latency - speed at which an app performs - the delay before a transfer of data begins following an instruction for its transfer.
+
+==============================================================================
+
+Tools for Database Management:  SQL Developer and TOAD
+
+==============================================================================
+
+SQL Developer: A versatile database Tool
+
+QUERY
+DEBUG
+MANAGE
+INTEGRATE
+AUTOMATE
+
+==============================================================================
+
+QAs Role:
+
+1. Data Validation - data input and output are consistent with expected values and business rules.  Includes testing edge cases and error handling
+2. Schema Verification - Verifies that the database schema matches the applications expected data structure, ensuring seamless integration and accurate data processing
+3. Regression Testing - Checks that existing functionality, including database interactions, continues to work as expected after changes are made to the application
+4. Performance Monitoring - Monitors the performance of database queries and transactions, identifying and addressing any bottlenecks or performance issues that could impact functionality
+5. Data Integrity Checks - Ensures that data in not corrupted, lost, or duplicated during database operations, suchs as CRUD actions
