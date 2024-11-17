@@ -30,3 +30,15 @@ Disclosure:
 The above owner will be the default owner for this repo.
 
 ---------------------------------------------------------------------------
+
+#QA Training Project Readme
+this project uses Project IDX, which is located [here](https://idx.google.com/qa-training11624-8344829)
+
+The technologies involved with this project are [Python] (https://www.python.org/), [SQLite w/ python] (https://www.geeksforgeeks.org/python-sqlite/), and [Selenium] (https://www.selenium.dev/).
+
+The skills developed in this project are:
+1. Git and GitHub
+2. Writing Python Code
+3. Writing SQL
+4. Implementing Selenium
+5. Learning core QA Concepts & Methodologies
