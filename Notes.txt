@@ -109,3 +109,38 @@ QAs Role:
 3. Regression Testing - Checks that existing functionality, including database interactions, continues to work as expected after changes are made to the application
 4. Performance Monitoring - Monitors the performance of database queries and transactions, identifying and addressing any bottlenecks or performance issues that could impact functionality
 5. Data Integrity Checks - Ensures that data in not corrupted, lost, or duplicated during database operations, suchs as CRUD actions
+
+==============================================================================
+database.py 
+
+
+import sqlite
+
+def create_database():
+    # Create a connection to the database (it will be created if it doesn't exist)
+    Conn = sqlite.connect('mydatabase.db')
+
+    # Create a cursor object to execute SQL commands
+    cursor = conn.cursor()
+
+    # Create a table (if it doesn't exist)
+    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
+        id INTERGER PRIMARY KEY,
+        name TEXT,
+        age INTEGER
+        )''')
+    # Commit the changes
+    conn.commit()
+
+    # Close the connection
+    conn.close()
+
+    print ("SQLite database created successfully!")
+
+=============================================================================
+
+main.py 
+
+import database
+
+# Create the database if it doesn't exist database.create_database()
