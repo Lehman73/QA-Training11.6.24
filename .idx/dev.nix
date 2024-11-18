@@ -10,8 +10,11 @@
    pkgs.run
    pkgs.python311
    pkgs.python311Packages.pip
+   pkgs.python311Packages.selenim
    pkgs.sqlite
    pkgs.graphicsmagick-imagemagick-compat
+   pkgs.chromium
+   pkgs.firefox
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
   ];
