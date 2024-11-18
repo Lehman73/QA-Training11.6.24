@@ -1,4 +1,4 @@
-import sqlite
+import sqlite3
 
 def create_database():
     # Create a connection to the database (it will be created if it doesn't exist)
