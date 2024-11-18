@@ -1,6 +1,7 @@
 import sqlite3
 
-def create_database(): 
+def print_mydatabase():
+
     # Create a connection to the database (it will be created if it doesn't exist)
     Connection = sqlite3.connect('mydatabase.db')
 
@@ -16,4 +17,4 @@ def create_database():
     # Close the connection
     connection.close()
 
-    PRINT ("SQLite3 database created successfully!")
+    print ("SQLite3 database created successfully!")
