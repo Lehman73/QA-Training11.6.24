@@ -218,6 +218,16 @@ database.create_user()
 database.print_database()
 
 =============================================================================
+ETL (Extract, Transform, Load)
+
+Extract - The process of gathering and retrieving data from various sources such as databases, spreadsheets, or other systems into 
+            a central location for further processing. 
+Transform - The process of converting the extracted data into a standardized format, cleaning and validating the data, and performing
+            any necessary data manipulations, such as merging, sorting, or filtering, to ensure data quality and consistency.
+Load - The process of transferring the transformed data into the target data storage, such as a data warehouse or a data lake, 
+            where it can be used for analysis, reporting, or other business intelligence purproses.
+
+DATABASE.PY PREVIOUS code
 
 
 
