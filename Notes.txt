@@ -142,3 +142,72 @@ import database
 database.create_database()
 
 database.print_database()
+
+=============================================================================
+
+
+
+============================================================================
+Scripting 
+
+Basic Unix Shell Commands:
+1. ls (shows content of current directory) 
+2. cd (changing directories)
+3. mkdir (make/create directory)
+4. rm (remove directory)
+5. etc for file and directory Management
+
+CRUD is used here as well
+
+Unix Scripting - Scripting language
+            Steep learning curve
+            highly versatile and can be used for a wide range of QA tasks
+                Scripting, Automation, and system administration
+                Complexity of the platform may make it less accessible for some QA professionals
+
+Perl Scripting - Scripting language
+            Powerful tool for text processing capabilities for file manipulation, string manipulation and pattern matching.
+            May encounter this instead of Python.
+            Great for maintaining and modernizing older applications
+            enable rapid development of customer scripts for a wide range of tasks
+
+Python Scripting - Scripting language
+            syntax is designed to be clean, concise, and easy to understand
+            excellent choice for beginners and experienced programmers alike
+            vast ecosystem of libraries and frameworks covering a wide range of tasks
+                including web development to data analysis, maching learning and beyond
+            Python community ensures a wealth of resources and assistance
+
+Key Programming Concepts and Vocabulary
+    1. Variable
+        a named storage location that can hold a value 'age' 'name' 'score'
+    2. Function 
+        reusable block of code that performs a specific task.  'calculateArea()', 'sendEmail()' and 'sort();
+    3. Loop
+        programming structure that repeats a block of code until a certain condition is met.  FOR, WHILE, DO-WHILE loops
+    4. Conditional statement
+        decision-making structure that allows a program to execute different actions based on specific conditions. IF-ELSE, SWITCH, TERNARY
+    5. Automation 
+        use of technology to perform tasks with minimal human intervention.  automated email responses, schedule backups, and web scraping
+
+Automation helps reduce manual effort, improves consistency and enables faster feedback loops for more efficient testing
+
+---AUTOMATE REPETITIVE TASKS, IMPROVE CONSISTENCY, REDUCE ERRORS, INCREASE PRODUCTIVITY--
+
+============================================================================
+
+CI/CD PIPELINE
+        really understand this concept 
+    
+============================================================================
+
+
+
+
+
+
+
+
+
+
+
