@@ -12,7 +12,7 @@ database.delete_users_from_user_table(database_1)
 database.delete_users_from_user_table(database_2)
 
 print('\nLets create some users in Database 1:')
-database.create_user('Tom', 19, database_1)
+database.create_user('John', 19, database_1)
 database.create_user('Jerry', 25, database_1)
 database.create_user('Gerald', 44, database_1)
 database.print_database(database_1)
