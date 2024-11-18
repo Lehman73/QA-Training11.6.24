@@ -1,23 +1,19 @@
 import sqlite3
 
-def create_database():
+def create_database(): 
     # Create a connection to the database (it will be created if it doesn't exist)
-    Conn = sqlite3.connect('mydatabase.db')
+    Connection = sqlite3.connect('mydatabase.db')
 
     # Create a cursor object to execute SQL commands
-    cursor = conn.cursor()
+    cursor = connection.cursor()
 
-    # Create a table (if it doesn't exist)
-    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
-        id INTERGER PRIMARY KEY,
-        name TEXT,
-        age INTEGER
-        )''')
+    # Create a Table (if it doesn't exist)
+    Cursor.execute ('''CREATE a Table IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)''')
+    
     # Commit the changes
-    conn.commit()
+    connection.commit()
 
     # Close the connection
-    conn.close()
+    connection.close()
 
-    print ("SQLite database created successfully!")
-
+    PRINT ("SQLite3 database created successfully!")
