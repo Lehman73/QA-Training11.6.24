@@ -114,29 +114,24 @@ QAs Role:
 database.py 
 
 
-import sqlite3
+import database
 
-def create_database():
-    # Create a connection to the database (it will be created if it doesn't exist)
-    Conn = sqlite.connect('mydatabase.db')
+# Create the database if it doesn't exist
+database.create_database() 
+database.create_user()
+database.print_database()
 
-    # Create a cursor object to execute SQL commands
-    cursor = conn.cursor()
 
-    # Create a table (if it doesn't exist)
-    cursor.execute('''CREATE TABLE IF NOT EXISTS users (
-        id INTERGER PRIMARY KEY,
-        name TEXT,
-        age INTEGER
-        )''')
-    # Commit the changes
+#next step
+
+def create_user():
+    conn = sqlite3.connect('mydatabase.db')
+    c = conn.cursor()
+    c.execute("INSERT INTO users (name, age) VALUES (?, ?)", 
+    ('Alice', 30))
+
     conn.commit()
-
-    # Close the connection
     conn.close()
-
-    print ("SQLite database created successfully!")
-
 =============================================================================
 
 main.py 
