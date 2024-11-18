@@ -152,10 +152,18 @@ Scripting
 
 Basic Unix Shell Commands:
 1. ls (shows content of current directory) 
-2. cd (changing directories)
+2. cd (changing directories) typing cd moves you up one directory 
 3. mkdir (make/create directory)
 4. rm (remove directory)
-5. etc for file and directory Management
+6. pwd (print working directory)
+7. ~ 'Tilde' (represents your home directory). You can cd here and is where most work happens around your directory
+8. touch (create a new file)
+9. cp (copy a file)
+10. mv (move a file)
+11. cat (read a file)
+12. etc for file and directory Management
+13. python (file name) example main.py should produce output in the terminal
+14. chmod 755 then filename (chmod 755 ./terminal_script.sh) read/execute access for everyone and also write access for the owner of the file.
 
 CRUD is used here as well
 
@@ -200,7 +208,16 @@ CI/CD PIPELINE
         really understand this concept 
     
 ============================================================================
+For scripting excersize, removed the contents of main.py (inserted below)
+import database
 
+# Create the database if it doesn't exist
+database.create_database() 
+database.create_user()
+
+database.print_database()
+
+=============================================================================
 
 
 
