@@ -10,7 +10,7 @@
    pkgs.run
    pkgs.python311
    pkgs.python311Packages.pip
-   pkgs.python311Packages.selenim
+   pkgs.python311Packages.selenium
    pkgs.sqlite
    pkgs.graphicsmagick-imagemagick-compat
    pkgs.chromium
