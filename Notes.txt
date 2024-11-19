@@ -1,3 +1,13 @@
+Simple text written like this
+_Italic written like this_
+**Bold written like this**
+~~Strike through written like this~~
+
+
+
+
+
+
 From GitHub for desktop
 Check Current Repository QA-Training11.6.24
 Click on Repository at top, then select open in Windows Terminal
