@@ -63,19 +63,19 @@ Final Project Presentation
 
 ## Project Roadmap <a name="paragraph8"></a>
 
-**Current Development (Q4 2024):**
+**Current Development:**
 
 *  **Core Functionality:**
     * Develop data file
     * Integrate with primary data source
 
-**Long-Term Goals (Q4 2024 and beyond):**
+**Long-Term Goals:**
   * Continuous research of QA and coding
 
-* **Scalability Improvements:**
+* **Improvements:**
     * Optimize database performance for large datasets
     * 
-* **Community Engagement:**
+* **Engagement:**
     * User feedback integration
     * Create documentation and work instructions
 
