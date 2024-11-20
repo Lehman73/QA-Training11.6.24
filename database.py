@@ -54,12 +54,11 @@ def print_database(birthday_database):
     rows = c.fetchall()
     for row in rows:
         print(row)
-
 def create_database(birthday_database):
     # Create a connection to the database (it will be created if it doesn't exist)
     conn = sqlite3.connect('{birthday_database}.db')
     c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS birthdays (
+    c.execute('''CREATE TABLE IF NOT EXISTS table (
     Firstname TEXT(15),
     Lastname TEXT(15),
     Month TEXT(9),
