@@ -1,7 +1,7 @@
 import database
 # Create the database if it doesn't exist
 
-database.create_database()
+database.create_database('family_database.db')
 
 def print_mydatabase():
 
