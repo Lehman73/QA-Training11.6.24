@@ -1,4 +1,5 @@
 import sqlite3
+# Creating a database for family member birthdays.  Set up email notification prior to the birthday. 
 
 def create_user(name, month, day, family_database):
     conn = sqlite3.connect(f'{family_database}.db')
