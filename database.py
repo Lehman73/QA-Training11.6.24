@@ -59,6 +59,7 @@ def create_database(family_database):
     conn.commit()
     conn.close()
 
-    print("SQLite database named {family_database} created successfully!". 
-    format(family_database))
+    print("SQLite database named {family_database} created successfully!")
+    
+  
 
