@@ -93,7 +93,7 @@ Final Project Presentation
    * [in progress] Requirements
    * [in progress] Installation Instructions
    * [not started] Usage Instructions
-   * [not started] Documentation
+   * [in progress] Documentation
    * [not started] Visuals
    * [not started] Support Information
    * [done] Project Roadmap
