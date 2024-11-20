@@ -5,7 +5,7 @@ conn = sqlite3.connect('birthday_database.db')
 c = conn.cursor()
 
 # Retrieve all birthdays
-c.execute("SELECT * FROM birthdays")
+c.execute("SELECT * FROM birthdays"),
 birthdays = c.fetchall()
 
 # Print the birthdays
