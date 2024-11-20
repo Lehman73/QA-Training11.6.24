@@ -1,15 +1,15 @@
 import sqlite3
 
-# connect to the database birthdays
+# connect to the database Family
 def print_database():
-    conn = sqlite3.connect('birthday_database.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
 
-# Retrieve all birthdays    
-    c.execute("SELECT * FROM birthdays")
+# Retrieve all Family   
+    c.execute("SELECT * FROM Family")
     rows = c.fetchall()
 
-# Print the birthdays
+# Print the Family
     for row in rows:
         print(row)
 
