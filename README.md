@@ -105,7 +105,7 @@ For Support, please reach out to your Manager [Melissa](melissalehman73@gmail.co
 ## Project Status <a name="paragraph9"></a>
 
 * **Current Status:** In progress
-   * [done]() <text style="color: green">create readme.md</text> </p> 
+   * [done]() <text style="color: green">Create README.md</text> </p> 
    * [done]() About me
    * [done]() Technologies Used
    * [done]() Requirements
