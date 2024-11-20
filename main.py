@@ -9,7 +9,7 @@ c.execute("SELECT * FROM birthdays")
 birthdays = c.fetchall()
 
 # Print the birthdays
-for birthdays in birthdays:
+for firstname in birthdays:
     print(firstname, lastname, month, day, year, age)
 
 # Close the connection
