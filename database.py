@@ -2,7 +2,7 @@ import sqlite3
 # Creating a database for family member birthdays.  Set up email notification prior to the birthday. 
 
 def create_user(name, month, day, family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("INSERT INTO users (name, month, day) VALUES (?, ?, ?)", (name, month, day)), (Melissa, May, 31)
     c.execute("INSERT INTO users (name, month, day) VALUES (?, ?, ?)", (name, month, day)), (Andrea, July, 3)
@@ -11,21 +11,21 @@ def create_user(name, month, day, family_database):
     conn.close()
 
 def update_user(name, month, day, family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("UPDATE users SET month = ?, SET day = ? WHERE name = ?", (month, day, name))
     conn.commit()
     conn.close()
 
 def delete_user(name, month, day, family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("INSERT INTO users (name, month, day) VALUES (?, ?, ?)", (name, month, day))
     conn.commit()
     conn.close()
 
 def get_user(family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("INSERT INTO users (name, month, day) VALUES (?, ?, ?)", (name, month, day))
     conn.commit()
@@ -33,7 +33,7 @@ def get_user(family_database):
     return User
 
 def get_user_table(family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("SELECT * FROM users", ())
     all_users = c.fetchall()
@@ -41,7 +41,7 @@ def get_user_table(family_database):
     return all_users
 
 def print_database(family_database):
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     c = conn.cursor()
     c.execute("SELECT * FROM users")
     rows = c.fetchall()
@@ -50,7 +50,7 @@ def print_database(family_database):
 
 def create_database(family_database):
     # Create a connection to the database (If it doesn't exist, it will be created)
-    conn = sqlite3.connect(f'{family_database}.db')
+    conn = sqlite3.connect('family_database.db')
     cursor = conn.cursor()
     cursor.execute('''CREATE TABLE IF NOT EXISTS users (
         name TEXT(15),
