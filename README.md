@@ -70,7 +70,7 @@ This is a great place to include a hyperlink so the README file isn't bogged dow
 * [Notes](Notes.txt)
 
 * Created database.py - received successful statement
-* Created main.py - will not create family_database.db, will need to review closer for issues.
+* Created main.py - received successful statement and family_database.db was created.
 
 ## Visuals <a name="paragraph6"></a>
 
@@ -86,6 +86,10 @@ For Support, please reach out to your Manager [Melissa](melissalehman73@gmail.co
 
 **Current Development:**
 
+* 1. Create a database for family birthdays to send email prior to their birthday.
+
+* 2. Create database of daily, weekly, monthly, bi-monthly, quarterly, semi-yearly, and yearly of maintenance items.  Send email 2 days before it's due.  
+
 *  **Core Functionality:**
     * Develop data file
     * Integrate with primary data source
@@ -95,7 +99,7 @@ For Support, please reach out to your Manager [Melissa](melissalehman73@gmail.co
 
 * **Improvements:**
     * Optimize database performance for large datasets
-    * 
+
 * **Engagement:**
     * User feedback integration
     * Create documentation and work instructions
