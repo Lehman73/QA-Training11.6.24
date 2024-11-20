@@ -51,17 +51,33 @@ Final Project Presentation
 
 ## Installation Instructions <a name="paragraph3"></a>
 
+This is where you would show how to get the development environment up and running
+
 * _Project IDX_ [here](https://developers.google.com/idx)
 * _GitHub_ [here](https://github.com/)
 * _Python_ [here](https://www.python.org/downloads/)
 * _SQLite3_ [here](https://www.geeksforgeeks.org/python-sqlite/)
 
 ## Usage Instructions <a name="paragraph5"></a>
+
+* _Provide instructions and examples so users/contributors can use the project with brief description of the software's capabilities
+
 ## Documentation <a name="paragraph5"></a>
+
+This is a great place to include a hyperlink so the README file isn't bogged down. Main documentation includes:
+
+* Installation Instructions, API Documents, Benchmark Tests, and changelog.
+* [Notes](Notes.txt)
 
 * Created database.py - received successful statement
 * Created main.py - will not create family_database.db, will need to review closer for issues.
+
 ## Visuals <a name="paragraph6"></a>
+
+
+[QA Image](https://www.google.com/imgres?q=funny%20image%20for%20QA&imgurl=https%3A%2F%2Fimage.spreadshirtmedia.com%2Fimage-server%2Fv1%2Fcompositions%2FT650A2PA4005PT17X25Y17D1045511966W34899H41879%2Fviews%2F1%2Cwidth%3D550%2Cheight%3D550%2CappearanceId%3D2%2CbackgroundColor%3D000000%2CnoPt%3Dtrue%2Ffunny-qa-engineer-expert-advice-quality-assurance-mens-tall-t-shirt.jpg&imgrefurl=https%3A%2F%2Fwww.spreadshirt.com%2Fshop%2Fdesign%2Ffunny%2Bqa%2Bengineer%2Bexpert%2Badvice%2Bquality%2Bassurance%2Bmens%2Btall%2Bt-shirt-D62a30478ebe60a221642dc17%3Fsellable%3DVRlGG8jp45feyXkY5xNd-650-7&docid=7a3zb5EnqUgnrM&tbnid=YEpBZKifL22n3M&vet=12ahUKEwjfjrCJjeuJAxVEw_ACHceaI0YQM3oECFYQAA..i&w=550&h=550&hcb=2&ved=2ahUKEwjfjrCJjeuJAxVEw_ACHceaI0YQM3oECFYQAA)
+
+
 ## Support Information <a name="paragraph7"></a>
 
 ## Project Roadmap <a name="paragraph8"></a>
@@ -89,8 +105,8 @@ Final Project Presentation
 * **Current Status:** In progress
    * [done] create readme.md
    * [done] About me
-   * [in progress] Technologies Used
-   * [in progress] Requirements
+   * [done] Technologies Used
+   * [done] Requirements
    * [in progress] Installation Instructions
    * [not started] Usage Instructions
    * [in progress] Documentation
@@ -99,7 +115,7 @@ Final Project Presentation
    * [done] Project Roadmap
    * [in progress] Project Status
    * [done] Contribution Guidelines
-   * [in progress] Acknowledgments
+   * [done] Acknowledgments
    * [done] License Information
    * [done] Conclusion
 
@@ -115,6 +131,12 @@ Introduction to Quality Assurance [Valerie Lockhart](https://www.linkedin.com/in
 Introduction to Quality Assurance [Sage Faraday]( https://www.linkedin.com/in/sage-faraday/)
 
 How to do Markdown Anchor Links for Table of Contents (GitHub) [Patrick Jackson](https://www.google.com/search?q=how+to+create+a+hyperlink+to+another+section+in+readme+file&sca_esv=77c72257878c30ef&sxsrf=ADLYWIJH4OmEzTwLumF99wxM5vb3g71lSA%3A1732036606512&ei=_sc8Z63xHu6mptQPmLmPiAw&ved=0ahUKEwit6KyV8-iJAxVuk4kEHZjcA8EQ4dUDCA8&uact=5&oq=how+to+create+a+hyperlink+to+another+section+in+readme+file&gs_lp=Egxnd3Mtd2l6LXNlcnAiO2hvdyB0byBjcmVhdGUgYSBoeXBlcmxpbmsgdG8gYW5vdGhlciBzZWN0aW9uIGluIHJlYWRtZSBmaWxlMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUjKpwJQvxxY7J8CcAZ4AJABAJgBwQGgAcZGqgEFMjAuNTi4AQPIAQD4AQGYAkqgArxBwgIKEAAYsAMY1gQYR8ICBBAjGCfCAggQABiABBiiBMICBBAhGArCAgoQIxiABBgnGIoFwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgIREC4YgAQYsQMY0QMYgwEYxwHCAgsQLhiABBjRAxjHAcICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAg4QABiABBixAxiDARiKBcICDhAuGIAEGLEDGIMBGNQCwgIFEAAYgATCAgoQABiABBgUGIcCwgIGEAAYFhgewgIFECEYqwLCAgUQIRifBcICCxAAGIAEGIYDGIoFmAMAiAYBkAYIkgcFMjIuNTKgB4ziBA&sclient=gws-wiz-serp#fpstate=ive&vld=cid:da7934f5,vid:EKqhENATIKg,st:52)
+
+15 Elements to Include in Your README Document [Davor](https://www.archbee.com/blog/readme-document-elements)
+
+How to Write a Good README File for Your Github Project [Hillary Nyakundi](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+
+
 
 ## License Information <a name="paragraph12"></a>
 
