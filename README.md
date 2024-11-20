@@ -58,6 +58,9 @@ Final Project Presentation
 
 ## Usage Instructions <a name="paragraph5"></a>
 ## Documentation <a name="paragraph5"></a>
+
+* Created database.py - received successful statement
+* Created main.py - will not create family_database.db, will need to review closer for issues.
 ## Visuals <a name="paragraph6"></a>
 ## Support Information <a name="paragraph7"></a>
 
