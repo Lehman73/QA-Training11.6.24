@@ -1,4 +1,4 @@
-import sqlite3
+import database
 
 # connect to the database family
 def print_database():
