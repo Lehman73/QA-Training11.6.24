@@ -74,11 +74,13 @@ This is a great place to include a hyperlink so the README file isn't bogged dow
 
 ## Visuals <a name="paragraph6"></a>
 
-
+![alt text](<QA Image.jpg>)
 [QA Image](https://www.google.com/imgres?q=funny%20image%20for%20QA&imgurl=https%3A%2F%2Fimage.spreadshirtmedia.com%2Fimage-server%2Fv1%2Fcompositions%2FT650A2PA4005PT17X25Y17D1045511966W34899H41879%2Fviews%2F1%2Cwidth%3D550%2Cheight%3D550%2CappearanceId%3D2%2CbackgroundColor%3D000000%2CnoPt%3Dtrue%2Ffunny-qa-engineer-expert-advice-quality-assurance-mens-tall-t-shirt.jpg&imgrefurl=https%3A%2F%2Fwww.spreadshirt.com%2Fshop%2Fdesign%2Ffunny%2Bqa%2Bengineer%2Bexpert%2Badvice%2Bquality%2Bassurance%2Bmens%2Btall%2Bt-shirt-D62a30478ebe60a221642dc17%3Fsellable%3DVRlGG8jp45feyXkY5xNd-650-7&docid=7a3zb5EnqUgnrM&tbnid=YEpBZKifL22n3M&vet=12ahUKEwjfjrCJjeuJAxVEw_ACHceaI0YQM3oECFYQAA..i&w=550&h=550&hcb=2&ved=2ahUKEwjfjrCJjeuJAxVEw_ACHceaI0YQM3oECFYQAA)
 
 
 ## Support Information <a name="paragraph7"></a>
+
+For Support, please reach out to your Manager [Melissa](melissalehman73@gmail.com)
 
 ## Project Roadmap <a name="paragraph8"></a>
 
@@ -103,21 +105,21 @@ This is a great place to include a hyperlink so the README file isn't bogged dow
 ## Project Status <a name="paragraph9"></a>
 
 * **Current Status:** In progress
-   * [done] create readme.md
-   * [done] About me
-   * [done] Technologies Used
-   * [done] Requirements
-   * [in progress] Installation Instructions
-   * [not started] Usage Instructions
+   * [done]() <text style="color: green">create readme.md</text> </p> 
+   * [done]() About me
+   * [done]() Technologies Used
+   * [done]() Requirements
+   * [done]() Installation Instructions
+   * [in progress]() <text style="color: purple">Usage Instructions</text> </p>
    * [in progress] Documentation
-   * [not started] Visuals
-   * [not started] Support Information
-   * [done] Project Roadmap
+   * [done]() Visuals
+   * [done]() Support Information
+   * [done]() Project Roadmap
    * [in progress] Project Status
-   * [done] Contribution Guidelines
-   * [done] Acknowledgments
-   * [done] License Information
-   * [done] Conclusion
+   * [done]() Contribution Guidelines
+   * [done]() Acknowledgments
+   * [done]() License Information
+   * [done]() Conclusion
 
 
 ## Contribution Guidelines <a name="paragraph10"></a>
