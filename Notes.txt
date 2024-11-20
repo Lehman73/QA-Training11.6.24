@@ -1,3 +1,13 @@
+Simple text written like this
+_Italic written like this_
+**Bold written like this**
+~~Strike through written like this~~
+
+
+
+
+
+
 From GitHub for desktop
 Check Current Repository QA-Training11.6.24
 Click on Repository at top, then select open in Windows Terminal
@@ -42,3 +52,199 @@ CREATE A COMMIT:
 git add ~/qa-project/file-to-add.txt (This is how you select individual files to add to the commit)
 git commit -m "Describe the change here" (This is how you perform the commit)
 git push (This will push the commit to the branch you are currently on)
+
+=============================================================================
+
+SQL - Structured Query Language - programming language used to manage and manipulate relational databases
+CRUD - Create, Read, Update, Delete - The four basic operations that can be performed on database records
+Primary Key - A unique identifier for a record in a database table, ensuring that each record can be uniquely identified
+JOIN - An SQL operation used to combine rolw from two or more tables based on a related column between them
+Schema - The structure of a database, including the tables, fields, relationships, and other elements
+Null - A placeholder for values that are missing or unknown
+
+=============================================================================
+
+Key SQL Commands:
+
+select
+insert into
+update
+delete
+
+Advanced SQL Commands:
+
+SQL JOINs are used to combine rows from two or more tables based on a related column between them.
+
+Inner Join:  only the rows that have matching values in both tables
+Left Join: all rows from the left and matching from the right.
+Right Join: all rows from the right and matching from the left.
+Full Join: all rows from both tables
+
+Aggregating Data:
+
+GROUP BY
+COUNT
+AVG
+SUM
+
+Filtering Data:
+
+WHERE - Filter rows based on a specified condition.  Can use for numeric values and string values
+HAVING - Filter rows in a GROUP BY statement allowing you to select only the groups that meet a specified condition
+
+==============================================================================
+
+latency - speed at which an app performs - the delay before a transfer of data begins following an instruction for its transfer.
+
+==============================================================================
+
+Tools for Database Management:  SQL Developer and TOAD
+
+==============================================================================
+
+SQL Developer: A versatile database Tool
+
+QUERY
+DEBUG
+MANAGE
+INTEGRATE
+AUTOMATE
+
+==============================================================================
+
+QAs Role:
+
+1. Data Validation - data input and output are consistent with expected values and business rules.  Includes testing edge cases and error handling
+2. Schema Verification - Verifies that the database schema matches the applications expected data structure, ensuring seamless integration and accurate data processing
+3. Regression Testing - Checks that existing functionality, including database interactions, continues to work as expected after changes are made to the application
+4. Performance Monitoring - Monitors the performance of database queries and transactions, identifying and addressing any bottlenecks or performance issues that could impact functionality
+5. Data Integrity Checks - Ensures that data in not corrupted, lost, or duplicated during database operations, suchs as CRUD actions
+
+==============================================================================
+database.py 
+
+
+import database
+
+# Create the database if it doesn't exist
+database.create_database() 
+database.create_user()
+database.print_database()
+
+
+#next step
+
+def create_user():
+    conn = sqlite3.connect('mydatabase.db')
+    c = conn.cursor()
+    c.execute("INSERT INTO users (name, age) VALUES (?, ?)", 
+    ('Alice', 30))
+
+    conn.commit()
+    conn.close()
+=============================================================================
+
+main.py 
+
+import database
+
+# Create the database if it doesn't exist database.create_database()
+database.create_database()
+
+database.print_database()
+
+=============================================================================
+
+
+
+============================================================================
+Scripting 
+
+Basic Unix Shell Commands:
+1. ls (shows content of current directory) 
+2. cd (changing directories) typing cd moves you up one directory 
+3. mkdir (make/create directory)
+4. rm (remove directory)
+6. pwd (print working directory)
+7. ~ 'Tilde' (represents your home directory). You can cd here and is where most work happens around your directory
+8. touch (create a new file)
+9. cp (copy a file)
+10. mv (move a file)
+11. cat (read a file)
+12. etc for file and directory Management
+13. python (file name) example main.py should produce output in the terminal
+14. chmod 755 then filename (chmod 755 ./terminal_script.sh) read/execute access for everyone and also write access for the owner of the file.
+
+CRUD is used here as well
+
+Unix Scripting - Scripting language
+            Steep learning curve
+            highly versatile and can be used for a wide range of QA tasks
+                Scripting, Automation, and system administration
+                Complexity of the platform may make it less accessible for some QA professionals
+
+Perl Scripting - Scripting language
+            Powerful tool for text processing capabilities for file manipulation, string manipulation and pattern matching.
+            May encounter this instead of Python.
+            Great for maintaining and modernizing older applications
+            enable rapid development of customer scripts for a wide range of tasks
+
+Python Scripting - Scripting language
+            syntax is designed to be clean, concise, and easy to understand
+            excellent choice for beginners and experienced programmers alike
+            vast ecosystem of libraries and frameworks covering a wide range of tasks
+                including web development to data analysis, maching learning and beyond
+            Python community ensures a wealth of resources and assistance
+
+Key Programming Concepts and Vocabulary
+    1. Variable
+        a named storage location that can hold a value 'age' 'name' 'score'
+    2. Function 
+        reusable block of code that performs a specific task.  'calculateArea()', 'sendEmail()' and 'sort();
+    3. Loop
+        programming structure that repeats a block of code until a certain condition is met.  FOR, WHILE, DO-WHILE loops
+    4. Conditional statement
+        decision-making structure that allows a program to execute different actions based on specific conditions. IF-ELSE, SWITCH, TERNARY
+    5. Automation 
+        use of technology to perform tasks with minimal human intervention.  automated email responses, schedule backups, and web scraping
+
+Automation helps reduce manual effort, improves consistency and enables faster feedback loops for more efficient testing
+
+---AUTOMATE REPETITIVE TASKS, IMPROVE CONSISTENCY, REDUCE ERRORS, INCREASE PRODUCTIVITY--
+
+============================================================================
+
+CI/CD PIPELINE
+        really understand this concept 
+    
+============================================================================
+For scripting excersize, removed the contents of main.py (inserted below)
+import database
+
+# Create the database if it doesn't exist
+database.create_database() 
+database.create_user()
+
+database.print_database()
+
+=============================================================================
+ETL (Extract, Transform, Load)
+
+Extract - The process of gathering and retrieving data from various sources such as databases, spreadsheets, or other systems into 
+            a central location for further processing. 
+Transform - The process of converting the extracted data into a standardized format, cleaning and validating the data, and performing
+            any necessary data manipulations, such as merging, sorting, or filtering, to ensure data quality and consistency.
+Load - The process of transferring the transformed data into the target data storage, such as a data warehouse or a data lake, 
+            where it can be used for analysis, reporting, or other business intelligence purproses.
+
+DATABASE.PY PREVIOUS code
+
+
+
+
+
+
+
+
+
+
